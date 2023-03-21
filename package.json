@@ -1,0 +1,30 @@
+{
+  "name": "redux-toolkit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/plugin-proposal-class-properties": "7.10.1",
+    "@babel/preset-env": "7.5.5",
+    "@babel/preset-react": "7.7.0",
+    "babel-loader": "8.2.5",
+    "process": "0.11.10",
+    "prop-types": "^15.8.1",
+    "webpack": "^5.76.2",
+    "webpack-cli": "4.10.0",
+    "webpack-dev-server": "4.9.0"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.3",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.9.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2"
+  }
+}
